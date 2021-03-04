@@ -1,6 +1,6 @@
 function clock1(){
     //Clock setup
-    $("#clock1Title").text("Stage 1: Part 1");
+    $("#clock1Title").text("Stage 1: Part 1 (March 8th 2021)");
     $("#clock1Description").text("All Schools Reopen & Outdoor Recreational Activity Allowed (2 People)");
         
     var clock1x = setInterval(function() {
@@ -31,7 +31,7 @@ function clock1(){
 
 function clock2(){
     //Clock setup
-    $("#clock2Title").text("Stage 1: Part 2");
+    $("#clock2Title").text("Stage 1: Part 2 (March 29th 2021)");
     $("#clock2Description").text("Outdoor Gatherings (6 People from 2 Households only) & Outdoor Sports Facilities Reopen");
         
     var clock2x = setInterval(function() {
@@ -62,7 +62,7 @@ function clock2(){
 
 function clock3(){
     //Clock setup
-    $("#clock3Title").text("Stage 2");
+    $("#clock3Title").text("Stage 2 (April 12th 2021)");
     $("#clock3Description").text("Hairdressers, Public Buildings, Beer Gardens, Outdoor Hospitality, Swimming Pools & Gyms Reopen");
         
     var clock3x = setInterval(function() {
@@ -93,7 +93,7 @@ function clock3(){
 
 function clock4(){
     //Clock setup
-    $("#clock4Title").text("Stage 3");
+    $("#clock4Title").text("Stage 3 (May 17th 2021)");
     $("#clock4Description").text("Most Outdoor Social Contact Rules Lifted, Indoor Gatherings (6 People from 2 Households only) & Indoor Hospitality Reopen");
         
     var clock4x = setInterval(function() {
@@ -124,7 +124,7 @@ function clock4(){
 
 function clock5(){
     //Clock setup
-    $("#clock5Title").text("Stage 4");
+    $("#clock5Title").text("Stage 4 (June 21st 2021)");
     $("#clock5Description").text("All Legal Limits on Social Contact Removed!");
         
     var clock5x = setInterval(function() {
