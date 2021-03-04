@@ -12,7 +12,7 @@ body{
 
 @media only screen and (min-width: 600px) {
     #clock1Title, #clock2Title, #clock3Title, #clock4Title, #clock5Title{
-        font-size: 20px;
+        font-size: 25px;
     }
     
     #clock1SmallDescription, #clock2SmallDescription, #clock3SmallDescription, #clock4SmallDescription, #clock5SmallDescription{
