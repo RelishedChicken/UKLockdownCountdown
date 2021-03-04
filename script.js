@@ -2,6 +2,7 @@ function clock1(){
     //Clock setup
     $("#clock1Title").text("Stage 1: Part 1 (March 8th 2021)");
     $("#clock1Description").text("All Schools Reopen & Outdoor Recreational Activity Allowed (2 People)");
+    $("#clock1SmallDescription").text("Schools Open & Outdoor Activity (2 People)");
         
     var clock1x = setInterval(function() {
         //Time Setup
@@ -33,6 +34,7 @@ function clock2(){
     //Clock setup
     $("#clock2Title").text("Stage 1: Part 2 (March 29th 2021)");
     $("#clock2Description").text("Outdoor Gatherings (6 People from 2 Households only) & Outdoor Sports Facilities Reopen");
+    $("#clock2SmallDescription").text("6 People from 2 Households Outdoors");
         
     var clock2x = setInterval(function() {
         //Time Setup
@@ -64,6 +66,7 @@ function clock3(){
     //Clock setup
     $("#clock3Title").text("Stage 2 (April 12th 2021)");
     $("#clock3Description").text("Hairdressers, Public Buildings, Beer Gardens, Outdoor Hospitality, Swimming Pools & Gyms Reopen");
+    $("#clock3SmallDescription").text("Hairdressers, Public Buildings, Pubs & more!");
         
     var clock3x = setInterval(function() {
         //Time Setup
@@ -95,6 +98,7 @@ function clock4(){
     //Clock setup
     $("#clock4Title").text("Stage 3 (May 17th 2021)");
     $("#clock4Description").text("Most Outdoor Social Contact Rules Lifted, Indoor Gatherings (6 People from 2 Households only) & Indoor Hospitality Reopen");
+    $("#clock4SmallDescription").text("Contact Rules Lift, 6 People from 2 Households Indoors & Indoor Hospitality");
         
     var clock4x = setInterval(function() {
         //Time Setup
@@ -126,7 +130,8 @@ function clock5(){
     //Clock setup
     $("#clock5Title").text("Stage 4 (June 21st 2021)");
     $("#clock5Description").text("All Legal Limits on Social Contact Removed!");
-        
+    $("#clock5SmallDescription").text("All Restrictions Removed!");
+    
     var clock5x = setInterval(function() {
         //Time Setup
         var c5now = new Date();
@@ -154,7 +159,7 @@ function clock5(){
 }
 
 $( document ).ready(function() {
-    var htmlClockText = "<div class='p-3 mt-3 container bg-light justify-content-center'> <h3 class='text-center' id='clockREPLACETitle'>Clock Title</h3> <h6 class='text-center' id='clockREPLACEDescription'>Clock Description</h6> <hr> <div class='w-75 container' id='clockREPLACEClear'> <div class='row'> <div class='col text-center'> <h5 id='clockREPLACEDays'>-d</h5> </div> <div class='col text-center'> <h5 id='clockREPLACEHours'>-h</h5> </div> <div class='col text-center'> <h5 id='clockREPLACEMinutes'>-m</h5> </div> <div class='col text-center'> <h5 id='clockREPLACESeconds'>-s</h5> </div> </div> </div> </div>";
+    var htmlClockText = "<div class='p-3 mt-3 container bg-light justify-content-center'> <h3 class='text-center' id='clockREPLACETitle'>Clock Title</h3> <h6 class='text-center' id='clockREPLACEDescription'>Clock Description</h6> <h6 class='text-center' id='clockREPLACESmallDescription'>Small Clock Description</h6> <hr> <div class='w-75 container' id='clockREPLACEClear'> <div class='row'> <div class='col text-center'> <h5 class='clocktext' id='clockREPLACEDays'>-d</h5></div><div class='col text-center'> <h5 class='clocktext' id='clockREPLACEHours'>-h</h5></div><div class='col text-center'><h5 class='clocktext' id='clockREPLACEMinutes'>-m</h5></div> <div class='col text-center'><h5 class='clocktext' id='clockREPLACESeconds'>-s</h5></div></div></div></div>";
 
     for(i=1;i<=5;i++){
         var currentClock = htmlClockText.replaceAll("REPLACE",i);

@@ -9,3 +9,23 @@ body{
 @media (max-width: @screen-sm) {
     h5{font-size: 14px;}
 }
+
+@media only screen and (min-width: 600px) {
+    #clock1Title, #clock2Title, #clock3Title, #clock4Title, #clock5Title{
+        font-size: 20px;
+    }
+    
+    #clock1SmallDescription, #clock2SmallDescription, #clock3SmallDescription, #clock4SmallDescription, #clock5SmallDescription{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #clock1Title, #clock2Title, #clock3Title, #clock4Title, #clock5Title{
+        font-size: 20px;
+    }
+    
+    #clock1Description, #clock2Description, #clock3Description, #clock4Description, #clock5Description{
+        display: none;
+    }
+}
