@@ -1,0 +1,11 @@
+body{
+  background-color: #dae9ff!important;
+}
+
+@media (max-width: @screen-xs) {
+    h5{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    h5{font-size: 14px;}
+}
